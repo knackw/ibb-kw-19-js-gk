@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		</style>
+		<script src="datei.js" ></script>
+		<script>
+			function erstelleFormular()
+			{
+				// Einzeiliger Kommentar
+				document.write( "<form method='GET' action='datei.php'>" );	// Kommentar
+				document.write( "Login<input name='login'><br>" );
+				document.write( "Pwd: <input name='pwd'><br>" );
+				document.write( "<input type='submit' name='senden' value='SENDEN'>" );
+				document.write( "</form>" );
+				
+				/* 
+					mehrzeiliger
+					Kommentar
+				*/
+			}
+		
+		</script>
+	</head>
+	<body>
+		<h2>Anmeldung: </h2>
+		
+		<script>
+
+			erstelleFormular();
+		
+		</script>
+		
+		
+		<div id="div2" onclick='document.write("hallo") ;' >unten</div> 
+
+	</body>
+</html>

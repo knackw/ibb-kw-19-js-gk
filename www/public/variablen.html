@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Variablen</title>
+		<style></style>
+	</head>
+	<body>
+		<script>
+			/*
+				Der Name einer Variablen ist der Bezeichner
+				
+				d. h. ein Bezeichner ist ein Name für
+				
+					Variablen, Konstanten, Funktionen,  Eigenschaften, Methoden, Array
+
+				Ein Bezeichner darf enthalten:
+				
+					Buchstaben  Zahlen  _  $
+			
+			
+					Am Anfang darf keine Zahl stehen
+					
+					es dürfen keine Schlüsselwörter / reservierte Wörter benutzt werden
+			
+				Es gibt keine Variablendeklaration!!!
+				
+				Variablen werden mit var oder let erzeugt 
+					wobei let den Gültigkeitsbereich(scope) mehr einschränkt
+			*/
+		
+											// Basistypen
+			
+			var preis = 5 ;					// Number
+			
+			var summe = 8.456 ;				// Number
+			
+			var vorname = "Peter" ;			// String
+			
+			var isError = false ; 			// Boolean
+			
+					// Weitere Typen
+					
+			var nachname ;					// Undefined
+
+			var plz = null ;				// Null
+			
+			//----
+			
+			var liste = [ "Apfel" , "Birne" , "Kirsche" ] ;				// Array
+			
+			var person = { vorname : "Peter"  , nachname : "Pan" } ;	// Objekt
+			
+			var doSomething = function(){ alert("hallo") ; } ;							// Funktion
+			
+			//##############################################
+			
+			
+			document.write( "Preis : " , preis , "<br>" );
+			document.write( "Preis : " , preis.toFixed( 2 ) , "<br>" );
+			
+			document.write( "summe : " , summe , "<br>" );
+			document.write( "summe : " , summe.toFixed( 2 ) , "<br>" );
+		
+			document.write( "vorname : " , vorname , "<br>" );
+			document.write( "isError : " , isError , "<br>" );
+			document.write( "nachname : " , nachname , "<br>" );
+			document.write( "plz : " , plz , "<br>" );
+			
+			document.write( "liste : " , liste , "<br>" );
+			document.write( "liste : " , liste[0] , "<br>" );
+			
+			document.write( "person : " , person , "<br>" );
+			document.write( "person : " , person.nachname , "<br>" );
+			
+			document.write( "doSomething : " , doSomething , "<hr>" );
+		
+			//------------------------------------------
+			
+			document.write( "Typeof preis : " , typeof( preis ) , "<br>" );
+			document.write( "Typeof summe : " , typeof( summe ) , "<br>" );
+			document.write( "Typeof vorname : " , typeof( vorname ) , "<br>" );
+			document.write( "Typeof isError : " , typeof( isError ) , "<br>" );
+			document.write( "Typeof nachname : " , typeof( nachname ) , "<br>" );
+			document.write( "Typeof plz : " , typeof( plz ) , "<br>" );
+			document.write( "Typeof liste : " , typeof( liste ) , "<br>" );
+			document.write( "Typeof person : " , typeof( person ) , "<br>" );
+			document.write( "Typeof doSomething : " , typeof( doSomething ) , "<br>" );
+			
+			
+			
+			console.info( "Guten Tag" );
+			console.log( "hallo" );
+			console.error( "Fehler");
+			
+			console.log( person );
+		
+		
+		</script>
+		
+		
+		
+	</body>
+</html>
+

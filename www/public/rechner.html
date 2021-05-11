@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style></style>
+		<script>
+			function check()
+			{
+				var zahl1 = document.rechner.zahl1.value ;
+				var zahl2 = document.rechner.zahl2.value ;
+				
+				zahl1 = parseFloat(zahl1);
+				zahl2 = parseFloat(zahl2);
+				
+				var summe = zahl1 + zahl2 ;
+				
+				
+				document.rechner.summe.value = summe ;
+				document.getElementById( "msg" ).innerHTML = summe ;
+			}
+			
+			function init()
+			{
+				document.getElementById( "msg" ).innerHTML = "Guten Tag" ;
+			}
+			
+			
+		</script>
+	</head>
+	<body onload="init();">
+		
+		<form name="rechner">
+			
+			<input type="text" name="zahl1" ><br>
+			<input type="text" name="zahl2" ><br>
+			
+			<input type="button" value="ADD" onclick="check();" >
+			
+			<input type="text" name="summe" >
+		</form>
+		
+		<div id="msg" ></div>
+	</body>
+</html>
