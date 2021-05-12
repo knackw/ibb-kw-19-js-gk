@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="7acb557f-2611-4764-8e96-78fe1ea144ae" name="XAMPP localhost" url="http://localhost">
-        <fileTransfer mountedRoot="C:\www\ibb\ibb-kw-19-js-gk" accessType="MOUNT" port="0" />
+      <webServer id="7acb557f-2611-4764-8e96-78fe1ea144ae" name="XAMPP localhost" url="http://localhost:8080">
+        <fileTransfer mountedRoot="C:\www\ibb\ibb-kw-19-js-gk\www" accessType="MOUNT" port="0" />
       </webServer>
     </option>
   </component>

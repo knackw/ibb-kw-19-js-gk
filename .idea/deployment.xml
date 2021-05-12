@@ -5,7 +5,7 @@
       <paths name="XAMPP localhost">
         <serverdata>
           <mappings>
-            <mapping deploy="\" local="$PROJECT_DIR$" web="/ibb/ibb-kw-19-js-gk/" />
+            <mapping deploy="\" local="$PROJECT_DIR$/www/public" web="/" />
           </mappings>
         </serverdata>
       </paths>
