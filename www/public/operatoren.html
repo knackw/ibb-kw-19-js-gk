@@ -12,16 +12,17 @@
 			var zahl2 = 5;
 			var ergebnis ;
 			
-			//var ausgabe = "Zahlen : " + zahl1 + zahl2 + "<br>" ; 
-			//var ausgabe2 = "Zahlen : " + (zahl1 + zahl2) + "<br>" ; 
+			var ausgabe = "Zahlen : " + zahl1 + zahl2 + "<br>" ; 
+			var ausgabe2 = "Zahlen : " + (zahl1 + zahl2) + "<br>" ; 
 			// Klammern haben ein höhere Priorität
-			//document.write( ausgabe , ausgabe2  );
+			document.write( ausgabe , ausgabe2  );
 		
-			//document.write( "Zahlen : " , zahl1 + zahl2 , "<br>" );
+			document.write( "Zahlen : " , zahl1 + zahl2 , "<br>" );
 			// Hier werden der Funktion "write()" 3 Argumente übergeben.
 			// das 2. Argument ist ein Ausdruck umd muss zuerst gelöst werden
 			
 			document.write( "Zahl1 : " + zahl1 + "<br>" );
+			document.write( "Zahl1 : 22<br>" );
 			document.write( "Zahl2 : " , zahl2 , "<hr>" );
 			
 			//--------------------------------------------------------
@@ -42,7 +43,7 @@
 			document.write( ergebnis , "<br>" );
 			
 			ergebnis = zahl1 % zahl2 ;		// Modulo -> ganzzahliger Rest 
-												// -> hier leidern nicht 
+												// -> hier leidern nicht ganz
 												// ( Nachkommastellen bleiben, wenn vorhanden, erhalten)
 												
 			document.write( ergebnis , "<hr>" );

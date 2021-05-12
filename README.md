@@ -61,6 +61,10 @@ http://de.wikibooks.org/wiki/Websiteentwicklung:_JavaScript
 
 https://wiki.selfhtml.org/wiki/Schnell-Index/JavaScript
 
+**w3schools**
+
+https://www.w3schools.com/js/default.asp
+
 **QuerySelector**
 
 Beispiel: `onclick="document.querySelector('.big img').src='./images/thumbs/pics4.jpg';"`
