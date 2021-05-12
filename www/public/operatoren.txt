@@ -1,0 +1,32 @@
+
+	Arithmetische Operatoren
+	
+		Operatoren
+		
+			+  -  *  /  % 
+			
+		Zuweisungsoperatoren
+		
+			+=  -=  *=  /=  %=
+			
+		Andere Operatoren
+		
+			inkrement
+				
+				++
+				
+			dekrement
+			
+				--
+	
+	Relationale Operatoren  //  Vergleichsoperatoren
+		
+			==  ===  !=  !==  <  <=  >  >=
+			
+	Boolsche Operatoren		//  Logikoperatoren   // Verknüpfungsoperatoren
+	
+			&&  ||  !
+	
+	bedingte (ternäre) Operator
+	
+			Bedingung ? Ausdruck1 : Ausdruck2
